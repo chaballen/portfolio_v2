@@ -178,13 +178,12 @@ class Main extends Component {
                                 <div className={css(animate.fadeIn)}>
                                     <h5>Onit | Apptitude Developer Level 2 | 2021</h5>
                                     <ul className='description'>
-                                        <li>Completed level 1 certification September 2020.</li>
-                                        <li></li>
+                                        <li>Completed level 1 certification October 21, 2020.</li>
+                                        <li>Completed level 2 certification May 14, 2021.</li>
                                     </ul>
-                                    <h5>Onit | Enterprise Legal Management Level 1 | 2021</h5>
+                                    <h5>Onit | Enterprise Legal Management (ELM) - Apptitude Level 1 | 2021</h5>
                                     <ul className='description'>
-                                        <li></li>
-                                        <li></li>
+                                        <li>Completed level 1 certification October 22, 2020.</li>
                                     </ul>
                                     <h5>AT&T Summer Learning Academy | Certificate of Completion | JUN 2020 - JUL 2020</h5>
                                     <ul className='description'>
