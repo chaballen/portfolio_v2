@@ -105,8 +105,8 @@ class Main extends Component {
                     <div className='navBar'>
                         <ul className='nav'>
                             <li><a href='/portfolio' className='nav'>Portfolio</a></li>
-                            <li><a href='https://linkedin.com/in/chabrielle-allen' className='nav'>LinkedIn</a></li>
-                            <li><a href='https://github.com/chaballen' className='nav'>GitHub</a></li>
+                            <li><a href='https://linkedin.com/in/chabrielle-allen' target="_blank" className='nav'>LinkedIn</a></li>
+                            <li><a href='https://github.com/chaballen' target="_blank" className='nav'>GitHub</a></li>
                             <li><a href={ResumePdf} className='nav' download={'Chabrielle_Allen_Resume'}>Download Resume</a></li>
                         </ul>
                     </div>

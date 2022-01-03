@@ -84,8 +84,8 @@ class Portfolio extends Component {
                     <div className='navBar'>
                         <ul className='nav'>
                             <li><a href='/portfolio' className='nav'>Portfolio</a></li>
-                            <li><a href='https://linkedin.com/in/chabrielle-allen' className='nav'>LinkedIn</a></li>
-                            <li><a href='https://github.com/chaballen' className='nav'>GitHub</a></li>
+                            <li><a href='https://linkedin.com/in/chabrielle-allen' target="_blank" className='nav'>LinkedIn</a></li>
+                            <li><a href='https://github.com/chaballen' target="_blank" className='nav'>GitHub</a></li>
                             <li><a href={ResumePdf} className='nav' download={'Chabrielle_Allen_Resume'}>Download Resume</a></li>
                         </ul>
                     </div>
@@ -116,7 +116,7 @@ class Portfolio extends Component {
                                             functionalities, and is freely available for installation and use. In this
                                             project, I planned the interface, developed many of the visualizations, and
                                             wrote the documentation for downloading and using ALPHA.</li>
-                                        <li><span className='sideNote'><a href='https://github.com/chilleo/ALPHA'>See Repo</a></span></li>
+                                        <li><span className='sideNote'><a href='https://github.com/chilleo/ALPHA' target="_blank">See Repo</a></span></li>
                                     </ul>
                                     <h5>Battleship | Web Development</h5>
                                     <ul className='details'>
@@ -125,7 +125,7 @@ class Portfolio extends Component {
                                             class. Using Javascript, I created a simple, one-player version of the
                                             Battleship board game that tracks players' best scores (minimum number of
                                             moves) through cookies and is hosted on Surge.</li>
-                                        <li><span className='sideNote'><a href='http://comp431-battleship.surge.sh/'>Play Game</a></span></li>
+                                        <li><span className='sideNote'><a href='http://caa-battleship.surge.sh' target="_blank">Play Game</a></span></li>
                                     </ul>
                                     <h5>ALPHA: a toolkit for Automated Local Phylogenomic Analyses</h5>
                                     <ul className='details'>
@@ -146,7 +146,7 @@ class Portfolio extends Component {
                                             phylogenomics has been put on developing tools for inferring species phylogenies.
                                             This toolkit complements those efforts by emphasizing the ‘local’ aspect of
                                             phylogenomics.</li>
-                                        <li><span className='sideNote'><a href='https://doi.org/10.1093/bioinformatics/bty173'>Read Paper</a></span></li>
+                                        <li><span className='sideNote'><a href='https://doi.org/10.1093/bioinformatics/bty173' target="_blank">Read Paper</a></span></li>
                                     </ul>
                                     <h5>D<sub>GEN</sub>: A Test Statistic for Detection of General Introgression
                                         Scenarios</h5>
@@ -170,7 +170,7 @@ class Portfolio extends Component {
                                             accuracy of the general statistic, which we call D<sub>GEN</sub>, on simulated data
                                             sets with varying rates of introgression, and apply it to an empirical data set of
                                             mosquito genomes.</li>
-                                        <li><span className='sideNote'><a href='https://doi.org/10.1101/348649'>Read Paper</a></span></li>
+                                        <li><span className='sideNote'><a href='https://doi.org/10.1101/348649' target="_blank">Read Paper</a></span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -267,7 +267,7 @@ class Portfolio extends Component {
                                             was inspired by Charline von Heyl's style.</p></li>
                                     </ul>
                                     <span className='sideNote'><a href={'https://www.petzel.com/artists/charline-von-heyl'}
-                                    id={'goTo'}>See Charline von Heyl's Art</a></span>
+                                    id={'goTo'} target="_blank">See Charline von Heyl's Art</a></span>
                                 </div>
                             </div>
                         </div>
