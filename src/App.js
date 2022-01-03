@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {BrowserRouter, Route} from 'react-router-dom'
 import Main from './components/main';
-
 import Portfolio from './components/portfolio';
 
 class App extends Component {
