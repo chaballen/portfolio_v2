@@ -15,6 +15,8 @@ import SelfCare from '../images/self-care.jpg';
 import Diver from '../images/scuba.jpg';
 import Odd from '../images/odd.jpg';
 import Seashells from '../images/seashells.jpg';
+import Watercolor from '../images/watercolor.jpg';
+import Background from '../images/background.png';
 
 const fadeImages = [
     {
@@ -28,6 +30,12 @@ const fadeImages = [
     },
     {
         url: Seashells
+    },
+    {
+        url: Watercolor
+    },
+    {
+        url: Background
     },
 ];
 
@@ -268,6 +276,16 @@ class Portfolio extends Component {
                                     </ul>
                                     <span className='sideNote'><a href={'https://www.petzel.com/artists/charline-von-heyl'}
                                     id={'goTo'} target="_blank">See Charline von Heyl's Art</a></span>
+                                    <h5>'Watercolor' | 2020, Watercolor on Paper</h5>
+                                    <ul className='details'>
+                                        <li><p>This was one of my first experiments with watercolor.</p></li>
+                                    </ul>
+                                    <h5>'Abstract' | 2022, Gouache on Paper</h5>
+                                    <ul className='details'>
+                                        <li><p>This painting was inspired by Brian Kirchoff's style.</p></li>
+                                    </ul>
+                                    <span className='sideNote'><a href={'https://www.briankirchoffabstracts.com'}
+                                    id={'goTo'} target="_blank">See Brian Kirchoff's Art</a></span>
                                 </div>
                             </div>
                         </div>

@@ -1,17 +1,18 @@
 :root {
-  --bg_primary:rgba(14, 98, 117, 0.3);
-  --bg_background:white;
-  --accent1: rgb(35, 77, 57);
-  --accent2: #2f83a1;
+  --bg_primary:rgb(200, 217, 190);
+  --bg_primary_transparent:rgb(200, 217, 190, 0.9);
+  --bg_background:rgb(238, 237, 235);
+  --accent1: rgb(71, 119, 68);
+  --accent2: rgb(93, 163, 163);
   --bg_hover: "";
   
-  --font_headers: 'Abril Fatface', cursive;
+  --font_headers: 'Limelight', cursive;
   --font_body: 'Montserrat', sans-serif;
-  --f_header: #3e7c58;
+  --f_header: rgb(57, 96, 85);
   --f_body: black;
-  --f_link: #60b885;
-  --f_hover: #51a1be;
-  --star_fill: #ecdf1f;
+  --f_link: rgb(96, 184, 133);
+  --f_hover: rgb(81, 161, 190);
+  --star_fill: rgb(242, 226, 45);
 }
 
 * {
@@ -53,11 +54,14 @@ a:hover {
 
 body {
   background-color: var(--bg_primary);
+  background-image: url("images/background.png");
+  background-position: center;
+  background-size: 100%;
 }
 
 h1 {
   color: var(--f_header);
-  font-size: xx-large;
+  font-size: 350%;
   font-weight: bolder;
   font-family: var(--font_headers);
 }
@@ -129,6 +133,7 @@ ul {
 .footer {
   bottom: 0;
   color: var(--f_header);
+  background-color: var(--bg_primary_transparent);
   display: block;
   font-size: smaller;
   position: absolute;
@@ -138,6 +143,7 @@ ul {
 
 .header {
   color: var(--f_header);
+  background-color: var(--bg_primary_transparent);
   display: block;
   text-align: center;
   width: 100%;
