@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.319ed19c.css",
+    "main.js": "/static/js/main.f175324d.js",
+    "static/media/background.png": "/static/media/background.82987e2be7deeecb231f.png",
+    "static/media/seashells.jpg": "/static/media/seashells.fb4eaacabd311fbfe5a0.jpg",
+    "static/media/odd.jpg": "/static/media/odd.7ba1c02c5620b82eb067.jpg",
+    "static/media/self-care.jpg": "/static/media/self-care.3f439132cf859b9e86c5.jpg",
+    "static/media/scuba.jpg": "/static/media/scuba.0f2f252679fdccdfa73c.jpg",
+    "static/media/Chabrielle_Allen_Women_Crusades.pdf": "/static/media/Chabrielle_Allen_Women_Crusades.576687d0cf6e2902e162.pdf",
+    "static/media/cruise.jpg": "/static/media/cruise.8c64a7efe64b969064cf.jpg",
+    "static/media/Chabrielle_Allen_Productivity.pdf": "/static/media/Chabrielle_Allen_Productivity.a08d185f62c3455e9eea.pdf",
+    "static/media/cncd.jpg": "/static/media/cncd.f5964c90001261473f16.jpg",
+    "static/media/Chabrielle_Allen_Empty_Self_Cults.pdf": "/static/media/Chabrielle_Allen_Empty_Self_Cults.f26653555f41105e2ec9.pdf",
+    "static/media/headshot.jpg": "/static/media/headshot.c5b97bb8cfa98f10e766.jpg",
+    "static/media/Chabrielle_Allen_Violence_Revelation.pdf": "/static/media/Chabrielle_Allen_Violence_Revelation.6e54dd6432e909693d2c.pdf",
+    "static/media/Chabrielle_Allen_New_Beginning.pdf": "/static/media/Chabrielle_Allen_New_Beginning.1d49b4a9a9af15e58002.pdf",
+    "static/media/watercolor.jpg": "/static/media/watercolor.17407507844f6b398431.jpg",
+    "static/media/Chabrielle_Allen_Resume.pdf": "/static/media/Chabrielle_Allen_Resume.40f1234c81a5b906e5c4.pdf",
+    "index.html": "/index.html",
+    "main.319ed19c.css.map": "/static/css/main.319ed19c.css.map",
+    "main.f175324d.js.map": "/static/js/main.f175324d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.319ed19c.css",
+    "static/js/main.f175324d.js"
+  ]
+}
