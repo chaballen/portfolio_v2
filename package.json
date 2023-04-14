@@ -25,7 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "chaballen.github.io -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
