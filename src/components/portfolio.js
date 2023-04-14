@@ -51,6 +51,7 @@ class Portfolio extends Component {
         super(props);
         this.state = {
             hideCs: true,
+            hideUx: true,
             hideArt: true,
             hideReli: true,
         };
@@ -64,6 +65,16 @@ class Portfolio extends Component {
     showCs() {
         this.setState(prevState => ({
             hideCs: !prevState.hideCs,
+            hideUx: true,
+            hideArt: true,
+            hideReli: true,
+        }));
+    }
+
+    showUX() {
+        this.setState(prevState => ({
+            hideUx: !prevState.hideUx,
+            hideCs: true,
             hideArt: true,
             hideReli: true,
         }));
@@ -73,6 +84,7 @@ class Portfolio extends Component {
         this.setState(prevState => ({
             hideArt: !prevState.hideArt,
             hideCs: true,
+            hideUx: true,
             hideReli: true,
         }));
     }
@@ -81,6 +93,7 @@ class Portfolio extends Component {
         this.setState(prevState => ({
             hideReli: !prevState.hideReli,
             hideCs: true,
+            hideUx: true,
             hideArt: true,
         }));
     }
@@ -92,7 +105,7 @@ class Portfolio extends Component {
                     <a href='/'><h1>Chabrielle Allen</h1></a>
                     <div className='navBar'>
                         <ul className='nav'>
-                            <li><a href='/portfolio' className='nav'>Portfolio</a></li>
+                            <li><a href='/' className='nav'>Home</a></li>
                             <li><a href='https://linkedin.com/in/chabrielle-allen' target="_blank" className='nav'>LinkedIn</a></li>
                             <li><a href='https://github.com/chaballen' target="_blank" className='nav'>GitHub</a></li>
                             <li><a href={ResumePdf} className='nav' download={'Chabrielle_Allen_Resume'}>Download Resume</a></li>
@@ -180,6 +193,19 @@ class Portfolio extends Component {
                                             sets with varying rates of introgression, and apply it to an empirical data set of
                                             mosquito genomes.</li>
                                         <li><span className='sideNote'><a href='https://doi.org/10.1101/348649' target="_blank">Read Paper</a></span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='section' onClick={this.showUX}>
+                            <h3>User Experience</h3>
+                            <div className='entries' hidden={this.state.hideUx} display={this.state.hideUx ? 'none' : 'block'}>
+                                <div className={css(animate.fadeIn)}>
+                                    <h5>UX Design projects to be added here</h5>
+                                    <ul className='details'>
+                                        <li>
+                                            Course currently in progress as of April 2023. Come back soon for updates! </li>
+                                        <li><span className='sideNote'><a href='https://www.coursera.org/professional-certificates/google-ux-design' target="_blank">Learn more about Google's UX Design Professional Certificate</a></span></li>
                                     </ul>
                                 </div>
                             </div>
