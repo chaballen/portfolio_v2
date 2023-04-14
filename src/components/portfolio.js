@@ -57,7 +57,7 @@ class Portfolio extends Component {
         };
 
         this.showCs = this.showCs.bind(this);
-        this.showUx = this.showUx.bind(this);
+        this.showCs = this.showCs.bind(this);
         this.showArt = this.showArt.bind(this);
         this.showReli = this.showReli.bind(this);
     }
@@ -71,7 +71,7 @@ class Portfolio extends Component {
         }));
     }
 
-    showUX() {
+    showCs() {
         this.setState(prevState => ({
             hideUx: !prevState.hideUx,
             hideCs: true,
@@ -197,7 +197,7 @@ class Portfolio extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className='section' onClick={this.showUX}>
+                        <div className='section' onClick={this.showCs}>
                             <h3>User Experience</h3>
                             <div className='entries' hidden={this.state.hideUx} display={this.state.hideUx ? 'none' : 'block'}>
                                 <div className={css(animate.fadeIn)}>
