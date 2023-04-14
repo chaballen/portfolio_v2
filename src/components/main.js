@@ -120,10 +120,8 @@ class Main extends Component {
                                 </Carousel.Item>
                             ))}
                         </Carousel>
-                        <p>Hello, I'm Chabrielle. Currently, I am a support 
-                            analyst at Onit, a legal tech startup that provides 
-                            custom Enterprise Legal Management and Contract 
-                            Lifecycle Management solutions.</p>
+                        <p>Hello, I'm Chabrielle. Currently, I am a senior configuration analyst at Oscar, 
+                            a health insurance company dedicated to providing accessible, affordable healthcare.</p>
                     </div>
                     <div className='menu'>
                         <div className='section' onClick={this.showEducation}>
@@ -176,19 +174,25 @@ class Main extends Component {
                             <h3>Certificates</h3>
                             <div className='entries' hidden={this.state.hideCert} display={this.state.hideCert ? 'none' : 'block'}>
                                 <div className={css(animate.fadeIn)}>
+                                    <h5>Google UX Design Professional Certificate | Coursera X Google | In Progress (last update: April 2023) </h5>
+                                    <ul className='description'>
+                                        <li>Working through 7 courses centered around equitable user design practices.</li>
+                                        <li>Will develop wireframes, low-fidelity prototypes, and user experience research as part of coursework.</li>
+                                    </ul>
                                     <h5>Onit | Apptitude Developer Level 2 | 2021</h5>
                                     <ul className='description'>
                                         <li>Completed level 1 certification October 21, 2020.</li>
                                         <li>Completed level 2 certification May 14, 2021.</li>
                                     </ul>
-                                    <h5>Onit | Enterprise Legal Management (ELM) - Apptitude Level 1 | 2021</h5>
+                                    <h5>Onit | Enterprise Legal Management (ELM) - Apptitude Level 2 | 2021</h5>
                                     <ul className='description'>
                                         <li>Completed level 1 certification October 22, 2020.</li>
+                                        <li>Completed level 2 certification May 14, 2021.</li>
                                     </ul>
                                     <h5>AT&T Summer Learning Academy | Certificate of Completion | JUN 2020 - JUL 2020</h5>
                                     <ul className='description'>
                                         <li>Finished 80 hours of online learning through 26 live sessions and 51  self-paced courses to further business and technical acumen alongside personal and professional development.</li>
-                                        <li>Completed section-level training in human resources, finance, advertising, media and technology, communication, and leadership.</li>
+                                        <li>Completed entry-level training in human resources, finance, advertising, media and technology, communication, and leadership.</li>
                                         <li>Expanded client-focused skillset through courses on effective listening, asking discovery questions, exploring solutions, and implementing with end users in mind.</li>
                                     </ul>
                                 </div>
@@ -240,14 +244,15 @@ class Main extends Component {
                                                 <span className='fa fa-star'></span>
                                             </span>
                                         </li>
-                                        <li>Java
+                                        <li>SQL
                                             <span className='stars'>
                                                 <span className='fa fa-star'></span>
                                                 <span className='fa fa-star'></span>
                                                 <span className='fa fa-star'></span>
+                                                <span className='fa fa-star-half'></span>
                                             </span>
                                         </li>
-                                        <li>SQL
+                                        <li>Java
                                             <span className='stars'>
                                                 <span className='fa fa-star'></span>
                                                 <span className='fa fa-star'></span>
@@ -308,6 +313,13 @@ class Main extends Component {
                                                 <span className='fa fa-star'></span>
                                             </span>
                                         </li>
+                                        <li>Google BigQuery
+                                            <span className='stars'>
+                                                <span className='fa fa-star'></span>
+                                                <span className='fa fa-star'></span>
+                                                <span className='fa fa-star'></span>
+                                            </span>
+                                        </li>
                                         <li>Trello
                                             <span className='stars'>
                                                 <span className='fa fa-star'></span>
@@ -335,19 +347,37 @@ class Main extends Component {
                             <h3>Work</h3>
                             <div className='entries' hidden={this.state.hideWork} display={this.state.hideWork ? 'none' : 'block'}>
                                 <div className={css(animate.fadeIn)}>
+                                    <h5>Oscar Health</h5>
+                                    <ul className='details'>
+                                        <li>
+                                            <h5>Senior Configuration Analyst | JUN 2022 - CURRENT</h5>
+                                            <ul>
+                                                <li>
+                                                    Currently, I'm a Senior Configuration Analyst at Oscar Health, where I develop the configurations that price claims for reimbursement to doctors and hospitals. My responsibilities include, but are not limited to: 
+                                                    <ul className='description'>
+                                                        <li>Creating, updating, and code reviewing logic in LayerCake to calculate claim reimbursements based on contract requirements.</li>
+                                                        <li>Evaluating configurations to confirm correctness and scoping impacted claims for adjustment using SQL.</li>
+                                                        <li>Communicating logic issues, pricing impact, claim holds, and reimbursement policy information to cross-functional teams.</li>
+                                                        <li>Confirming claim pricing during audits and resolving high-priority configuration issues in a timely manner.</li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+
                                     <h5>Onit</h5>
                                     <ul className='details'>
                                         <li>
-                                            <h5>Support Analyst | SEPT 2020 - CURRENT</h5>
+                                            <h5>Support Analyst | SEPT 2020 - JUN 2022</h5>
                                             <ul>
                                                 <li>
-                                                    Since graduating, I have been a Support Analyst at Onit. I provide front-line and ongoing technical support for clients' customized Contract Lifecycle Management, Enterprise Legal Management, Legal Holds, and Apptitude solutions. I regularly work directly with clients to ensure a smooth user experience. My responsibilities include, but are not limited to: 
+                                                    At Onit, I provided front-line and ongoing technical support for clients' customized Contract Lifecycle Management, Enterprise Legal Management, Legal Holds, and Apptitude solutions. I regularly worked directly with clients to ensure a smooth user experience. During my time as a Support Analyst, I: 
                                                     <ul className='description'>
-                                                        <li>Communicating technical information to clients and internal teams to address client questions and concerns.</li>
-                                                        <li>Scoping client asks to customize workflows or improve product performance and usability.</li>
-                                                        <li>Debugging and developing custom workflows, maintaining data integrity using Liquid Templating Language, and administering user access with security requirements in mind.</li>
-                                                        <li>Using Sidekiq, Mailgun, Kibana, Datadog, and client-level integration logs to troubleshoot data discrepancies, workflow issues, and potential bugs.</li>
-                                                        <li>Developing Ruby scripts to pull data from Onit's API for analysis and client data returns.</li>
+                                                        <li>Communicated technical information to clients and internal teams to address client questions and concerns.</li>
+                                                        <li>Scoped client asks to customize workflows or improve product performance and usability.</li>
+                                                        <li>Debugged and developed custom workflows, maintained data integrity using Liquid Templating Language, and administered user access with security requirements in mind.</li>
+                                                        <li>Used Sidekiq, Mailgun, Kibana, Datadog, and client-level integration logs to troubleshoot data discrepancies, workflow issues, and potential bugs.</li>
+                                                        <li>Developed Ruby scripts to pull data from Onit's API for analysis and client data returns.</li>
                                                     </ul>
                                                 </li>
                                             </ul>
